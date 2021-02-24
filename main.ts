@@ -21,10 +21,13 @@ input.onButtonPressed(Button.B, function () {
     Pin = Counter_B % 3
     if (Pin == 0) {
         basic.showString("R")
+        basic.clearScreen()
     } else if (Pin == 1) {
         basic.showString("G")
+        basic.clearScreen()
     } else if (Pin == 2) {
         basic.showString("B")
+        basic.clearScreen()
     }
 })
 let Counter_B = 0
@@ -36,6 +39,7 @@ let Analog_0 = 0
 let Hue_0 = 0
 let Pin = 0
 basic.showString("R")
+basic.clearScreen()
 basic.forever(function () {
 	
 })
